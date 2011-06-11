@@ -22,7 +22,7 @@ jQuery(document).ready(function ($) {
 	 */
 	function jqId(myid) {
 		return '#' + myid.replace(/(:|\.)/g,'\\$1');
-	},
+	};
 
 	CMS.Placeholders = CMS.Class.$extend({
 
