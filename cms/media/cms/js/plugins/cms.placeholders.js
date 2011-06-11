@@ -516,11 +516,7 @@ jQuery(document).ready(function ($) {
 			// read and save placeholder bar variables
 			var split = el.parent().parent().attr('class').split('::');
 				split.shift(); // remove classes
-			var values = {
-					'language': split[0],
-					'placeholder_id': split[1],
-					'placeholder': split[2]
-				};
+
 			split = [ split[0], split[1], split[2] ];
 			var cloneId = 'cms_placeholder-subnav_clone::' + split.join('::');
 			var listClone = $(jqId(cloneId));
